@@ -79,7 +79,7 @@ function waitAndResponce(inputText) {
     case "intro":
       setTimeout(() => {
         sendTextMessage(
-          "Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink' href='https://www.linkedin.com/in/vashnavi-chauhan-b6222514b/'>Vashanvi Chauhan</a>.</span><br><br>Great pleasure introduce my self. <span class='bold'>I’m Frontend developer and apart from this I love to build beautiful UI 💛</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'more'</span> to know more about me.<br>"
+          "Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink' href='https://twitter.com/VashnaviChauhan'>Vashanvi Chauhan</a>.</span><br><br>Great pleasure introduce my self. <span class='bold'>I’m Frontend developer and apart from this I love to build beautiful UI 💛</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'more'</span> to know more about me.<br>"
         );
       }, 2000);
       break;
